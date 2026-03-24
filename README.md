@@ -2,7 +2,8 @@ Install this MCP server by adding the following JSON code to your JSON config fi
 
 '''json
 {
-    "mcpchessserver": {
+  "mcpServer": {
+      "mcpchessserver": {
       "command": "uvx",
       "args": [
         "--from",
@@ -10,6 +11,7 @@ Install this MCP server by adding the following JSON code to your JSON config fi
         "chess"
       ]
     }
+  }
 }
 
 '''
